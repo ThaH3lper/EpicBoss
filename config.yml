@@ -1,0 +1,66 @@
+# ___...---*** EpicBoss By: ThaH3lper ***---...___
+# 
+# IF YOU DONT KNOW HOW TO MAKE A BOSS PLEAS GO TO THIS PAGE!
+# ------------------ LEVEL 100 NOOB GUIDE --------------------
+#
+# http://dev.bukkit.org/server-mods/epicboss/pages/how-to-build-your-boss/ 
+# 
+# ------------------------------------------------------------
+# 
+Bosses:
+  ZombieKing:
+    Type: zombie
+    Health: 200
+    Damage: 10
+    Skills: 
+    - jump
+    - speed_1
+    - teleport
+    - lightning
+    - blindness_short
+    - zombie_swarm_small
+    - effectfire
+    SkillsInterval: 12
+    Drops:
+    - 264:0:20 100
+    - 35:14:16 100
+    - 320:0:16 100
+    - 373:8233:5 50
+    - 276:0:1 50 KNOCKBACK:2,DAMAGE_ALL:5,FIRE_ASPECT:2
+  SpiderQueen:
+    Type: spider
+    Health: 1200
+    Damage: 8
+    Skills: 
+    - jump
+    - speed_2
+    - drag_in
+    - lightning
+    - poison_long
+    - swap
+    SkillsInterval: 12
+    Drops: 
+    - 264:0:20 100
+    - 35:14:16 50
+    - 320:0:16 30
+    - 373:8233:5 20
+  BigPigy:
+    Type: pigzombie
+    Health: 2300
+    Damage: 8
+    Skills: 
+    - jump
+    - speed_1
+    - lightning
+    - blindness_short
+    - zombie_swarm_big
+    - weakness_short
+    - poison_short
+    - confusion_short
+    - swap
+    SkillsInterval: 12
+    Drops: 
+    - 264:0:20 100
+    - 35:14:16 100
+    - 320:0:16 100
+    - 373:8233:5 100

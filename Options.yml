@@ -1,0 +1,37 @@
+# -----------------------------
+# > > > > > Options! < < < < <
+# ----------------------------- 
+# This is the percent the drop will drop from it.
+# If this is 100 and drop chance on loot is 1 then it is 1/100 to get it
+# If this is 1000 and drop chance is 1, then it's 1/1000 that it drops
+# This effects all drops
+MaxPercent: 100
+# ----------------------------
+# This is the boss health option, there is 3 types:
+# "normal", this says the hp of boss on every hit
+# "percent", this shows the percent of the boss health to all player within 20blocks, onlys shows 10,20,30 etc Perfect to remove the spam in chat.
+# "none", no health is shown
+ShowHealth: normal
+# -----------------------------
+# Here is the message when you hit the boss
+# [EpicBoss], change this to your own text :)
+BossTitle: '&7[&4EpicBoss&7] '
+# -----------------------------
+# Now to messages, SkillMsg is message that will be broadcasted to players 20blocks, Picks a random msg in the list
+# close to the boss when boss uses a skill. DeathMsg is broadcasted when Boss dies.
+# CmdMsg, is executed in console when boss dies, all commands get executed in the list!
+# Message is not required to be added to all bosses, I only added it to ZombieKing :)
+# '%boss' = Boss name will be here, '%player' = Player will be here!
+# %boss and %player only works on DeathMsg and CmdMsg!
+Message:
+  ZombieKing:
+    SkillMsg:
+    - '&dYou should die... now!'
+    - '&dHaha, try to kill me now!'
+    - '&dThis will hurt you... badly...'
+    - '&dStop hitting me or I will hit you with this!'
+    DeathMsg: '&4%boss &2got killed by &4%player&2, Good job!'
+    CmdMsg:
+    - 'say Looks like someone killed %boss, I think it was %player'
+    - '50:say Its 50% chance that this commands executes'
+    - '10:say Its 10% chance that this commands executes'
