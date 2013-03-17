@@ -44,23 +44,20 @@ Bosses:
     - 35:14:16 50
     - 320:0:16 30
     - 373:8233:5 20
-  BigPigy:
-    Type: pigzombie
-    Health: 2300
+  Cower:
+    Type: cow
+    Health: 100
     Damage: 8
     Skills: 
     - jump
-    - speed_1
-    - lightning
-    - blindness_short
-    - zombie_swarm_big
-    - weakness_short
-    - poison_short
-    - confusion_short
-    - swap
+    - speed_3
+    - throw 5:4 <15 1
+    - throw 5:4 <90 1
+    - throw 5:4 <70 1
+    - throw 5:4 <50 1
     SkillsInterval: 12
     Drops: 
-    - 264:0:20 100
-    - 35:14:16 100
-    - 320:0:16 100
-    - 373:8233:5 100
+    - 363:0:2 45
+    - 363:0:3 100
+    - 334:2:1 100
+    - 388:1:1 20
